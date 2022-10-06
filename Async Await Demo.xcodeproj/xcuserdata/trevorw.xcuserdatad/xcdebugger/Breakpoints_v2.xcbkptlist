@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "AEC8AE8E-8382-4E99-82A3-5C3C3BA150E5"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E2196FA1-7EBB-42F3-AB7D-783ED0947C16"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Async Await Demo Tests/Async_Await_Demo_Tests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "testPersonAPI()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E2196FA1-7EBB-42F3-AB7D-783ED0947C16 - 49ac59841d56cb6f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Array&lt;Async_Await_Demo.Person&gt;, Swift.Error&gt;) -&gt; () in Async_Await_Demo_Tests.Async_Await_Demo_Tests.testPersonAPI() -&gt; ()"
+                  moduleName = "Async Await Demo Tests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trevorw/Library/Mobile%20Documents/com~apple~CloudDocs/Apps/Xcode/Async%20Await%20Demo/Async%20Await%20Demo%20Tests/Async_Await_Demo_Tests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "152">
+               </Location>
+               <Location
+                  uuid = "E2196FA1-7EBB-42F3-AB7D-783ED0947C16 - 49ac59841d56cb4e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Array&lt;Async_Await_Demo.Person&gt;, Swift.Error&gt;) -&gt; () in Async_Await_Demo_Tests.Async_Await_Demo_Tests.testPersonAPI() -&gt; ()"
+                  moduleName = "Async Await Demo Tests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trevorw/Library/Mobile%20Documents/com~apple~CloudDocs/Apps/Xcode/Async%20Await%20Demo/Async%20Await%20Demo%20Tests/Async_Await_Demo_Tests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "164">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B76B9F13-0A01-43E6-9E8B-FFFC902CD391"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Async Await Demo/StarWarsAPI.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "loadPeople(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

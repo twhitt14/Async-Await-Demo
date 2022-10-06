@@ -1,0 +1,30 @@
+{
+  "configurations" : [
+    {
+      "id" : "F294F7EE-EE77-41BE-88C2-166BBB1E0560",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:Async Await Demo.xcodeproj",
+      "identifier" : "EC3480FE28DCE4D300600A6C",
+      "name" : "Async Await Demo"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:Async Await Demo.xcodeproj",
+        "identifier" : "EC34811728DCF28F00600A6C",
+        "name" : "Async Await Demo Tests"
+      }
+    }
+  ],
+  "version" : 1
+}

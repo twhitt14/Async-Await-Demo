@@ -11,7 +11,22 @@
 		EC34810528DCE4D300600A6C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC34810428DCE4D300600A6C /* ContentView.swift */; };
 		EC34810728DCE4D400600A6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC34810628DCE4D400600A6C /* Assets.xcassets */; };
 		EC34810A28DCE4D400600A6C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC34810928DCE4D400600A6C /* Preview Assets.xcassets */; };
+		EC34811128DCEB2800600A6C /* StarWarsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC34811028DCEB2800600A6C /* StarWarsAPI.swift */; };
+		EC34811328DCF0B600600A6C /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC34811228DCF0B600600A6C /* String+Extensions.swift */; };
+		EC34811B28DCF28F00600A6C /* Async_Await_Demo_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC34811A28DCF28F00600A6C /* Async_Await_Demo_Tests.swift */; };
+		EC71495028EF57F3008860DA /* StarWarsPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC71494F28EF57F3008860DA /* StarWarsPerson.swift */; };
+		EC71495228EF5870008860DA /* StarWarsPersonResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC71495128EF5870008860DA /* StarWarsPersonResponse.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC34811C28DCF28F00600A6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC3480F728DCE4D300600A6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC3480FE28DCE4D300600A6C;
+			remoteInfo = "Async Await Demo";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		EC3480FF28DCE4D300600A6C /* Async Await Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Async Await Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,10 +34,24 @@
 		EC34810428DCE4D300600A6C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EC34810628DCE4D400600A6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC34810928DCE4D400600A6C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC34811028DCEB2800600A6C /* StarWarsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsAPI.swift; sourceTree = "<group>"; };
+		EC34811228DCF0B600600A6C /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		EC34811828DCF28F00600A6C /* Async Await Demo Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Async Await Demo Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC34811A28DCF28F00600A6C /* Async_Await_Demo_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Async_Await_Demo_Tests.swift; sourceTree = "<group>"; };
+		EC71494F28EF57F3008860DA /* StarWarsPerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsPerson.swift; sourceTree = "<group>"; };
+		EC71495128EF5870008860DA /* StarWarsPersonResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsPersonResponse.swift; sourceTree = "<group>"; };
+		EC71495428EF58F8008860DA /* AsyncAwaitDemo.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = AsyncAwaitDemo.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		EC3480FC28DCE4D300600A6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC34811528DCF28F00600A6C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				EC34810128DCE4D300600A6C /* Async Await Demo */,
+				EC34811928DCF28F00600A6C /* Async Await Demo Tests */,
 				EC34810028DCE4D300600A6C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				EC3480FF28DCE4D300600A6C /* Async Await Demo.app */,
+				EC34811828DCF28F00600A6C /* Async Await Demo Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -53,6 +84,8 @@
 			children = (
 				EC34810228DCE4D300600A6C /* Async_Await_DemoApp.swift */,
 				EC34810428DCE4D300600A6C /* ContentView.swift */,
+				EC34811228DCF0B600600A6C /* String+Extensions.swift */,
+				EC71495328EF5880008860DA /* Star Wars API */,
 				EC34810628DCE4D400600A6C /* Assets.xcassets */,
 				EC34810828DCE4D400600A6C /* Preview Content */,
 			);
@@ -65,6 +98,25 @@
 				EC34810928DCE4D400600A6C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EC34811928DCF28F00600A6C /* Async Await Demo Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EC71495428EF58F8008860DA /* AsyncAwaitDemo.xctestplan */,
+				EC34811A28DCF28F00600A6C /* Async_Await_Demo_Tests.swift */,
+			);
+			path = "Async Await Demo Tests";
+			sourceTree = "<group>";
+		};
+		EC71495328EF5880008860DA /* Star Wars API */ = {
+			isa = PBXGroup;
+			children = (
+				EC34811028DCEB2800600A6C /* StarWarsAPI.swift */,
+				EC71495128EF5870008860DA /* StarWarsPersonResponse.swift */,
+				EC71494F28EF57F3008860DA /* StarWarsPerson.swift */,
+			);
+			path = "Star Wars API";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +139,24 @@
 			productReference = EC3480FF28DCE4D300600A6C /* Async Await Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
+		EC34811728DCF28F00600A6C /* Async Await Demo Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC34811E28DCF28F00600A6C /* Build configuration list for PBXNativeTarget "Async Await Demo Tests" */;
+			buildPhases = (
+				EC34811428DCF28F00600A6C /* Sources */,
+				EC34811528DCF28F00600A6C /* Frameworks */,
+				EC34811628DCF28F00600A6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC34811D28DCF28F00600A6C /* PBXTargetDependency */,
+			);
+			name = "Async Await Demo Tests";
+			productName = "Async Await Demo Tests";
+			productReference = EC34811828DCF28F00600A6C /* Async Await Demo Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -99,6 +169,10 @@
 				TargetAttributes = {
 					EC3480FE28DCE4D300600A6C = {
 						CreatedOnToolsVersion = 14.0;
+					};
+					EC34811728DCF28F00600A6C = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = EC3480FE28DCE4D300600A6C;
 					};
 				};
 			};
@@ -116,6 +190,7 @@
 			projectRoot = "";
 			targets = (
 				EC3480FE28DCE4D300600A6C /* Async Await Demo */,
+				EC34811728DCF28F00600A6C /* Async Await Demo Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +205,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EC34811628DCF28F00600A6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -137,12 +219,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC71495028EF57F3008860DA /* StarWarsPerson.swift in Sources */,
+				EC34811328DCF0B600600A6C /* String+Extensions.swift in Sources */,
+				EC34811128DCEB2800600A6C /* StarWarsAPI.swift in Sources */,
 				EC34810528DCE4D300600A6C /* ContentView.swift in Sources */,
+				EC71495228EF5870008860DA /* StarWarsPersonResponse.swift in Sources */,
 				EC34810328DCE4D300600A6C /* Async_Await_DemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EC34811428DCF28F00600A6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC34811B28DCF28F00600A6C /* Async_Await_Demo_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC34811D28DCF28F00600A6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC3480FE28DCE4D300600A6C /* Async Await Demo */;
+			targetProxy = EC34811C28DCF28F00600A6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		EC34810B28DCE4D400600A6C /* Debug */ = {
@@ -317,6 +419,50 @@
 			};
 			name = Release;
 		};
+		EC34811F28DCF28F00600A6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PM4FDSTQ8K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "llc.retro.Async-Await-Demo-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Async Await Demo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Async Await Demo";
+			};
+			name = Debug;
+		};
+		EC34812028DCF28F00600A6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PM4FDSTQ8K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "llc.retro.Async-Await-Demo-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Async Await Demo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Async Await Demo";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -334,6 +480,15 @@
 			buildConfigurations = (
 				EC34810E28DCE4D400600A6C /* Debug */,
 				EC34810F28DCE4D400600A6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC34811E28DCF28F00600A6C /* Build configuration list for PBXNativeTarget "Async Await Demo Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC34811F28DCF28F00600A6C /* Debug */,
+				EC34812028DCF28F00600A6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

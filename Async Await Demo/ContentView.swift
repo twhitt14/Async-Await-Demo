@@ -8,14 +8,33 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State
+    var people: [StarWarsPerson] = []
+    
+    @State var isLoading = false
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        List {
+            if isLoading {
+                Text("Loading")
+            } else {
+                LazyVStack(alignment: .leading) {
+                    ForEach(people) { person in
+                        Text(person.name)
+                            .backgroundStyle(.white)
+                            .padding()
+                    }
+                }
+            }
         }
-        .padding()
+        .onAppear {
+            Task {
+                isLoading = true
+                people = try await StarWarsAPI().loadPeopleAsync()
+                isLoading = false
+            }
+        }
     }
 }
 
